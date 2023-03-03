@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,8 +33,8 @@ class _NinjaCardState extends State<NinjaCard> {
             ninjaLevel += 1;
           });
         },
-        child: Icon(Icons.add),
         backgroundColor: Colors.grey[800],
+        child: Icon(Icons.add),
       ),
       body: Padding(
         padding: EdgeInsets.fromLTRB(30, 40, 30, 0),
